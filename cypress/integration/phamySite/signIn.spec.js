@@ -1,6 +1,6 @@
 describe("Sign in", function() {
   beforeEach(() => {
-    cy.visit("https://newscots-got-talent.herokuapp.com/login");
+    cy.visit("/login");
   });
   it("should contain an email field", () => {
     cy.get(`[name ="email"]`).should("be.visible");

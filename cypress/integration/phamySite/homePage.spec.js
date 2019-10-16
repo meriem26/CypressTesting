@@ -1,6 +1,6 @@
 describe("Home page", function() {
   beforeEach(() => {
-    cy.visit("https://newscots-got-talent.herokuapp.com/");
+    cy.visit("/");
   });
 
   it("should contain a title", () => {
