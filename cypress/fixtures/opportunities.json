@@ -1,0 +1,67 @@
+[
+	{
+		"opportunity_id": 11,
+		"opportunity_title": "Mentor with CYF",
+		"contact_person": "Luke",
+		"description": "Nine months in voluntary work",
+		"telephone": 444445555,
+		"cityid": 1,
+		"email": "luke@cyf.com",
+		"date": "2020-03-15T00:00:00.000Z",
+		"type": "Volunteer",
+		"location": "Edinburgh",
+		"user_id": 6
+	},
+	{
+		"opportunity_id": 4,
+		"opportunity_title": "Volunteer with cyf",
+		"contact_person": "Havva",
+		"description": "Four months in voluntary work",
+		"telephone": 444445555,
+		"cityid": 1,
+		"email": "yan@cyf.com",
+		"date": "2022-01-19T00:00:00.000Z",
+		"type": "Volunteer",
+		"location": "Edinburgh",
+		"user_id": 6
+	},
+	{
+		"opportunity_id": 3,
+		"opportunity_title": "Internship with cyf",
+		"contact_person": "Ali",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		"telephone": 444445555,
+		"cityid": 1,
+		"email": "yan@cyf.com",
+		"date": "2022-11-24T00:00:00.000Z",
+		"type": "Internship",
+		"location": "Edinburgh",
+		"user_id": 6
+	},
+	{
+		"opportunity_id": 2,
+		"opportunity_title": "Volunteer with cyf today",
+		"contact_person": "Mohammed",
+		"description": "mentors are needed to volunteer for the next yer class",
+		"telephone": 74545555,
+		"cityid": 4,
+		"email": "yan@cyf.com",
+		"date": "2023-02-14T00:00:00.000Z",
+		"type": "Full time",
+		"location": "Glasgow",
+		"user_id": 6
+	},
+	{
+		"opportunity_id": 1,
+		"opportunity_title": "Work with cyf",
+		"contact_person": "youssef",
+		"description": "Full time full-stack developer opportunity for new graduates ",
+		"telephone": 444445555,
+		"cityid": 4,
+		"email": "yan@cyf.com",
+		"date": "2021-03-15T00:00:00.000Z",
+		"type": "Volunteer",
+		"location": "Glasgow",
+		"user_id": 6
+	}
+]
