@@ -1,9 +1,4 @@
-const LandingPage = {
-	getHeader: () => cy.get('h1.ui.blue.center.aligned.header strong'),
-	getSignInButton: () => cy.contains('SIGN IN'),
-	getApplicantButton: () => cy.contains('REGISTER AS APPLICANT'),
-	getCompanyButton: () => cy.contains('REGISTER AS COMPANY'),
-};
+import LandingPage from '../../support/pagesModules';
 
 describe('Landing page', function() {
 	beforeEach(() => {

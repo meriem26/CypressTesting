@@ -1,13 +1,4 @@
-const SignInPage = {
-	getEmail: () => cy.get(`[name ="email"]`),
-	getPassword: () => cy.get(`[name ="password"]`),
-	getLoginButton: () => cy.get('.form > button').contains('Login'),
-	getErrorMessage: () => cy.contains('Wrong Info. Try Again'),
-};
-const HomePage = {
-	getLogout: () => cy.contains('Logout'),
-	getMyProfile: () => cy.contains('My Profile'),
-};
+import { SignInPage, HomePage } from '../../support/pagesModules';
 describe('Sign in', function() {
 	beforeEach(() => {
 		cy.visit('/login');
@@ -35,7 +26,7 @@ describe('Sign in', function() {
 		cy.url().should('contain', '/login');
 	});
 
-	it.only('should display a list of opportunities', () => {
+	it('should display a list of opportunities', () => {
 		cy.server();
 		cy.route('GET', '/api/opportunities', 'fixture:opportunities.json');
 
