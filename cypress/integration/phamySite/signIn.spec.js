@@ -25,16 +25,4 @@ describe('Sign in', function() {
 		SignInPage.getErrorMessage().should('be.visible');
 		cy.url().should('contain', '/login');
 	});
-
-	it('should display a list of opportunities', () => {
-		cy.server();
-		cy.route('GET', '/api/opportunities', 'fixture:opportunities.json');
-
-		SignInPage.getEmail().type('meriem@cyf.org');
-		SignInPage.getPassword().type('password');
-
-		SignInPage.getLoginButton().click();
-
-		cy.get('.ui.fluid').should('have.length', 5);
-	});
 });

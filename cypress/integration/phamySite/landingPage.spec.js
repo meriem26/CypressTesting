@@ -1,4 +1,4 @@
-import LandingPage from '../../support/pagesModules';
+import { LandingPage } from '../../support/pagesModules';
 
 describe('Landing page', function() {
 	beforeEach(() => {
