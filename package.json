@@ -1,7 +1,6 @@
 {
   "name": "testing",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
@@ -10,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.6.0"
-  }
+    "cypress": "^3.7.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meriem26/CypressTesting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meriem26/CypressTesting/issues"
+  },
+  "homepage": "https://github.com/meriem26/CypressTesting#readme",
+  "description": ""
 }
