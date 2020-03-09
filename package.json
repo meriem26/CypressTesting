@@ -4,12 +4,16 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "cypress:all": "cypress run"
+    "cypress:all": "cypress run",
+    "lint": "prettier --list-different \"**/*.js\"",
+    "lint:fix": "prettier --write \"**/*.js\"",
+    "cypress:ci": "cypress run"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.7.0"
+    "cypress": "^3.7.0",
+    "prettier": "1.19.1"
   },
   "dependencies": {},
   "repository": {

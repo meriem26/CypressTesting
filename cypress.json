@@ -1,3 +1,5 @@
 {
-	"baseUrl": "https://newscots-got-talent.herokuapp.com"
+	"projectId": "Phamy testing",
+	"baseUrl": "https://newscots-got-talent.herokuapp.com",
+	"chromeWebSecurity": false
 }
