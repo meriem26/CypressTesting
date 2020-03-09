@@ -16,6 +16,6 @@ describe("Opportunities List", () => {
 
     // cy.visit("/opportunities");
     // cy.wait("@load");
-    cy.get('.three').should("be.visible");
+    cy.get(".three").should("be.visible");
   });
 });
