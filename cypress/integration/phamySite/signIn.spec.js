@@ -1,4 +1,4 @@
-import { SignInPage, HomePage } from "../../support/pagesModules";
+import { SignInPage, HomePage } from "../../support/pagesModels";
 describe("Sign in", function() {
   beforeEach(() => {
     cy.visit("/login");
